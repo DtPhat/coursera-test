@@ -1,0 +1,83 @@
+.body{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+}
+
+#header-nav{
+  border-radius: 0;
+  border:2px solid #000000;
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #61122f;
+}
+a:hover, a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+#header-nav ul{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+}
+.navbar-header{
+  height: 70px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+    
+    font-family: 'Lora', serif;
+    color: #000000;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: .75;
+}
+.text-center{
+  padding: 20px 10px 10x 0px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 3em;
+}
+#chicken, #beef, #sushi{
+  height: 1000px;
+  position: relative;
+  background-color: #bdc3c7;
+  margin: 20px 40px 50px 40px;
+  
+}
+.row h2{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-weight: bolder;
+}
+.row p{
+  padding: 10px 30px 10px 30px;
+  font-size: 1.5em;
+}
+@media (max-width: 767px) {
+  /* Header */
+  #chicken, #beef, #sushi {
+    margin: 20px 80px 50px 80px;
+  } 
+  .navbar-brand h1 { /* Restaurant name */
+    padding-left: 50px;
+}
+#header-nav li{
+  border: 2px solid #000000;
+  border-radius: 0;
+  font-weight: bold;
+}
+#nav-list li a {
+  text-align: center;
+}
+#header-nav button{
+  position: absolute;
+  left: 90%;
+}
+}
